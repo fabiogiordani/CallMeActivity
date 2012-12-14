@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CallMeActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="callMeBtn">Chiamami</string>
+    <string name="testBtn">Test</string>
+    <string name="menuBtn">Menu contestuale</string>
+    <string name="subMenuBtn">Submenu...</string>
+    <string name="alertBtn">Clicca per vedere una semplice dialog...</string>
+    <string name="progressBtn">Progress bar demo.</string>
+    <string name="progressCustomBtn">Progress bar demo.</string>
+    <string name="fileSystemBtn">File I/O - blocco note demo.</string>
+    <string name="fileSystemExternalBtn">Lettura immagini da SDCARD e galleria con adapter demo.</string>
+
+    <!-- Activity CallMe Messaggi -->
+    <string name="callMe.option1">Comando 1</string>
+    <string name="callMe.option2">Comando 2</string>
+    <string name="callMe.option3">Comando 3</string>
+
+    <!-- Activity SimulateCall -->
+    <string name="simulateCall.msg">Ora ti chiamo...</string>
+    <string name="simulateCall.back">Back simulate</string>
+
+    <!-- Activity SubMenu -->
+    <string name="subMenu.text">Premere il tasto back...</string>
+    <string name="subMenu.title">SubMenuDemo</string>
+
+    <!-- Activity Test -->
+    <string name="test.msg">Ora ti chiamo...</string>
+    <string name="test.back">Back test</string>
+
+    <!-- Activity Progress -->
+    <string name="progress.msg">Lanciamo una cosa in background</string>
+    <string name="progress.back">Start a long operation...</string>
+    <string name="progress.title">Progress bar demo</string>
+
+    <!-- Activity Progress Custom -->
+    <string name="progressCustom.msg">Lanciamo una cosa in background</string>
+    <string name="progressCustom.back">Start a long operation...</string>
+    <string name="progressCustom.title">Progress bar custom demo</string>
+
+    <!-- Activity File System -->
+    <string name="fileSystem.msg">Demo accesso al file system</string>
+    <string name="fileSystem.load">Leggi da file</string>
+    <string name="fileSystem.save">Scrivi file</string>
+    <string name="fileSystem.list">Lista file</string>
+    <string name="fileSystem.title">Progress bar custom demo</string>
+
+    <style name="simulateCallStyle1">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="simulateCallStyle1.PiccoloCentrato">
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <string name="title_activity_progress_custom">ProgressCustomActivity</string>
+    <string name="title_activity_file_system">FileSystemActivity</string>
+    <string name="title_activity_file_system_gallery">FileSystemGalleryActivity</string>
+
+</resources>

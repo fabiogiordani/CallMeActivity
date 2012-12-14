@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    style="@style/simulateCallStyle1"
+    tools:context=".Call" >
+    <TextView 
+        style="@style/simulateCallStyle1.PiccoloCentrato"
+        android:id="@+id/simulateCall.textView"
+        android:text="@string/simulateCall.msg"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"/>
+    <Button 
+        android:id="@+id/simulateCall.backBtn"
+        android:text="@string/simulateCall.back"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="left"/>
+</LinearLayout>
