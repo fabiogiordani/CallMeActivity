@@ -65,5 +65,29 @@
 		    android:layout_width="match_parent"
 		    android:layout_height="wrap_content"
  		    android:id="@+id/call_me_fileSystemExternalBtn"/>
+		<Button 
+		    android:gravity="left" 
+		    android:text="@string/browserBtn"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+ 		    android:id="@+id/call_me_browserBtn"/>
+		<Button 
+		    android:gravity="left" 
+		    android:text="@string/contentProviderBtn"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+ 		    android:id="@+id/call_me_contentProviderBtn"/>
+		<Button 
+		    android:gravity="left" 
+		    android:text="@string/contentProviderMediaStoreBtn"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+ 		    android:id="@+id/call_me_contentProviderMediaStoreBtn"/>
+		<Button 
+		    android:gravity="left" 
+		    android:text="@string/serviceBtn"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+ 		    android:id="@+id/call_me_serviceBtn"/>
 	</LinearLayout>
 </ScrollView>

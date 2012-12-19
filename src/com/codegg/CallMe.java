@@ -102,6 +102,46 @@ public class CallMe extends Activity {
 			}
 		});
 
+		findViewById(R.id.call_me_browserBtn).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Toast.makeText(CallMe.this, "Mini browser e gestione della history in SQLite", Toast.LENGTH_SHORT).show();
+
+				Intent intent = new Intent(CallMe.this, BrowserActivity.class);
+				startActivity(intent);
+			}
+		});
+
+		findViewById(R.id.call_me_contentProviderBtn).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Toast.makeText(CallMe.this, "Invoca il content provider della rubrica", Toast.LENGTH_SHORT).show();
+
+				Intent intent = new Intent(CallMe.this, ContentProviderActivity.class);
+				startActivity(intent);
+			}
+		});
+
+		findViewById(R.id.call_me_contentProviderMediaStoreBtn).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Toast.makeText(CallMe.this, "Invoca il content provider della galleria di immagini", Toast.LENGTH_SHORT).show();
+
+				Intent intent = new Intent(CallMe.this, ContentProviderMediaStoreActivity.class);
+				startActivity(intent);
+			}
+		});
+
+		findViewById(R.id.call_me_serviceBtn).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Toast.makeText(CallMe.this, "Creo un Activity che mi permette di gestire il servizio ServiceActivity", Toast.LENGTH_SHORT).show();
+
+				Intent intent = new Intent(CallMe.this, ServiceActivity.class);
+				startActivity(intent);
+			}
+		});
+
 	}
 
 	/*

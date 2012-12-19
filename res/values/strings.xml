@@ -10,9 +10,13 @@
     <string name="subMenuBtn">Submenu...</string>
     <string name="alertBtn">Clicca per vedere una semplice dialog...</string>
     <string name="progressBtn">Progress bar demo.</string>
-    <string name="progressCustomBtn">Progress bar demo.</string>
+    <string name="progressCustomBtn">Progress bar custom demo.</string>
     <string name="fileSystemBtn">File I/O - blocco note demo.</string>
     <string name="fileSystemExternalBtn">Lettura immagini da SDCARD e galleria con adapter demo.</string>
+    <string name="browserBtn">Apri un mini browser web e memorizza la history in un database SQLite.</string>
+    <string name="contentProviderBtn">Apri una activity che interroga il content provider della RUBRICA.</string>
+    <string name="contentProviderMediaStoreBtn">Apri una activity che interroga il content provider delle IMMAGINI.</string>
+    <string name="serviceBtn">Apri una activity che permette di gestire il ciclo di vita di un servizio personalizzato.</string>
 
     <!-- Activity CallMe Messaggi -->
     <string name="callMe.option1">Comando 1</string>
@@ -46,7 +50,26 @@
     <string name="fileSystem.load">Leggi da file</string>
     <string name="fileSystem.save">Scrivi file</string>
     <string name="fileSystem.list">Lista file</string>
-    <string name="fileSystem.title">Progress bar custom demo</string>
+    <string name="fileSystem.title">Demo accesso al file system</string>
+
+    <!-- Activity Browser -->
+    <string name="browser.title">Titolo del browser</string>
+    <string name="browser.openURL">>></string>
+    <string name="browser.openHistory">History</string>
+    <string name="browser.menu.title">History</string>
+
+    <!-- Activity ContentProvider -->
+    <string name="contentProvider.title">Content Provider</string>
+    <string name="contentProvider.message">Activity che interroga il content provider della rubrica</string>
+
+    <!-- Activity ContentProviderMediaStore -->
+    <string name="contentProviderMediaStore.title">Titolo media store content provider</string>
+
+    <!-- Activity Service -->
+    <string name="service.title">Service manager</string>
+    <string name="service.startBtn.text">Start service</string>
+    <string name="service.stopBtn.text">Stop service</string>
+    <string name="service.editText.text">Stop service</string>
 
     <style name="simulateCallStyle1">
         <item name="android:textStyle">bold|italic</item>
@@ -64,5 +87,9 @@
     <string name="title_activity_progress_custom">ProgressCustomActivity</string>
     <string name="title_activity_file_system">FileSystemActivity</string>
     <string name="title_activity_file_system_gallery">FileSystemGalleryActivity</string>
+    <string name="title_activity_browser">BrowserActivity</string>
+    <string name="title_activity_content_provider">ContentProviderActivity</string>
+    <string name="title_activity_conte_provider_media_store">ConteProviderMediaStoreActivity</string>
+    <string name="title_activity_service">ServiceActivity</string>
 
 </resources>
