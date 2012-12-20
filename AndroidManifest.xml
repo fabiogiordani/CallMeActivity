@@ -11,6 +11,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <application
         android:allowBackup="true"
@@ -78,6 +79,14 @@
         </activity>
         
         <service android:name="com.codegg.service.MyService"></service>
+        <receiver
+	       android:name="com.codegg.receiver.BootCompletedReceiver"
+	       android:enabled="true"
+	       android:exported="false" >
+	       <intent-filter>
+	          <action android:name="android.intent.action.BOOT_COMPLETED" />
+	       </intent-filter>
+		</receiver>
     </application>
 
 </manifest>

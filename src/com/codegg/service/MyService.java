@@ -16,10 +16,6 @@ public class MyService extends Service {
 	private TelephonyManager telManager;
 
 	private class TelListener extends PhoneStateListener {
-		/*
-		 * @see android.telephony.PhoneStateListener#onCallStateChanged(int,
-		 * java.lang.String)
-		 */
 		@Override
 		public void onCallStateChanged(int state, String incomingNumber) {
 			super.onCallStateChanged(state, incomingNumber);
@@ -48,9 +44,6 @@ public class MyService extends Service {
 		return null;
 	}
 
-	/*
-	 * @see android.app.Service#onCreate()
-	 */
 	@Override
 	public void onCreate() {
 		super.onCreate();
@@ -74,9 +67,6 @@ public class MyService extends Service {
 		// timer.schedule(task, 0, 5000);
 	}
 
-	/*
-	 * @see android.app.Service#onDestroy()
-	 */
 	@Override
 	public void onDestroy() {
 		super.onDestroy();
